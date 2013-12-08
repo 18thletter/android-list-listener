@@ -44,11 +44,12 @@ import android.content.Context;
 import android.hardware.SensorManager;
 
 /**
- * A {@link org.openintents.sensorsimulator.hardware.SensorEventListener}
+ * A {@link org.openintents.sensorsimulator.hardware.SensorEventListener
+ * SensorEventListener}
  * that recognizes "shake" motions.
  *
  * An interface is provided for actions to be done when a shake is recognized
- * through {@link SensorSimulatorShakeListener.OnShakeListener.
+ * through {@link SensorSimulatorShakeListener.OnShakeListener
  * SensorSimulatorShakeListener.OnShakeListener}.
  *
  * The constants used to control how a shake is registered (such as the number
@@ -175,7 +176,8 @@ public class SensorSimulatorShakeListener implements SensorEventListener {
     /**
      * Call this method using a new instance of OnShakeListener to overload the
      * onShake method in the
-     * {@link SensorSimulatorShakeListener.OnShakeListener.SensorSimulatorShakeListener.OnShakeListener}
+     * {@link SensorSimulatorShakeListener.OnShakeListener
+     * SensorSimulatorShakeListener.OnShakeListener}
      * interface.
      *
      * @param listener

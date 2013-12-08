@@ -151,7 +151,8 @@ public class ShakeListener implements SensorEventListener {
     /**
      * Call this method using a new instance of OnShakeListener to overload the
      * onShake method in the
-     * {@link SensorSimulatorShakeListener.OnShakeListener.SensorSimulatorShakeListener.OnShakeListener}
+     * {@link SensorSimulatorShakeListener.OnShakeListener
+     * SensorSimulatorShakeListener.OnShakeListener}
      * interface.
      *
      * @param listener
@@ -161,8 +162,9 @@ public class ShakeListener implements SensorEventListener {
     }
 
     /**
-     * Registers the listener to begin listening for shakes. This method should
-     * be used in onResume functions.
+     * Registers the listener to begin listening for shakes.
+     *
+     * This method should be used in onResume functions.
      */
     public void start() {
         /* Don't register if already registered! */
