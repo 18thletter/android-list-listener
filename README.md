@@ -1,5 +1,5 @@
-Android Debugger Game
-=====================
+Educational Android Game
+========================
 
 This is my portion of a project for an SFSU course during Spring 2011 called Internet Application Design and Development. The full project is an educational Android game to teach programming techniques. The full project can be found at http://code.google.com/p/csc667-android-debugger/.
 
